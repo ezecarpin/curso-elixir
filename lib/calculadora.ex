@@ -14,5 +14,4 @@ defmodule Mates do
     def dividir(x,y) when x > 0 and y > 0 do
         Mates.Private.operar({:division, x, y})        
     end
-
 end
