@@ -13,9 +13,9 @@ defmodule Mates.CLI do
         case_return =
             case operation do
                 :+ -> Mates.suma(n1, n2)
-                :+ -> Mates.resta(n1, n2)
-                :+ -> Mates.multiplicar(n1, n2)
-                :+ -> Mates.dividir(n1, n2)
+                :- -> Mates.resta(n1, n2)
+                :* -> Mates.multiplicar(n1, n2)
+                :/ -> Mates.dividir(n1, n2)
             end
 
         case_return 

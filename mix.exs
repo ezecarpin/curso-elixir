@@ -1,5 +1,5 @@
 defmodule Mates.MixProject do
-  use Mix.ieProject
+  use Mix.Project
 
   def project do
     [
